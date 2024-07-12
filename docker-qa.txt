@@ -1,0 +1,41 @@
+docker ps: lista containers iniciados
+docker ps -a: lista containers iniciados e parados
+instalar docker no Ubuntu:
+https://docs.docker.com/engine/install/ubuntu/
+permissão de superuser: https://docs.docker.com/engine/install/linux-postinstall/
+docker images: lista as imagens
+docker start [id]: inicia container
+docker stop [id]: para container
+docker rm [id]: remove container
+docker exec -it [id] bash: executa docker dentro do container
+
+
+comandos dentro do container
+ls -l: lista pastas do sistema
+apt update: atualiza sistema
+apt install [nome_ferramenta]: instala ferramenta
+cd [caminho]: caminhar pelas pastas
+
+comandos vim
+i: entrar no modo de edição
+esc: sai do modo de edição
+shift + ":" + wq! : salva arquivo editado
+
+dentro da pasta do projeto /home/lourena/QA/projects
+docker run -d -p 8080:80 -v /home/lourena/QA/projects/docker-qa:/usr/share/nginx/html nginx
+-d: nao travar terminal
+-p [porta]: expor a porta
+-v [local do arquivo do projeto criado]:[caminho dos arquivos do docker]:cria volume
+
+subir a aplicação no docker
+- colar o repositório app dentro do repositório docker-qa
+docker run -d -p 8081:80 -v $(pwd)/app:/usr/share/nginx/html nginx
+
+customizar nome do container
+docker run -d -p 8081:80 -v $(pwd)/app:/usr/share/nginx/html --name parodify-qa nginx
+
+container customizado (empacotar a aplicação)
+
+- arquivo Dockerfile
+cria a imagem: docker build -t parodify .
+cria o container apontando para a imagem criada: docker run -d -p 8082:80 --name parodify-web parodify
