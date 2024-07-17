@@ -4,10 +4,10 @@
   <img src="docker-qa.png" alt="animated" />
 </p>
 
-:white_check_mark: 
-:white_check_mark: comandos docker utilizados
-:white_check_mark: subir aplicação no docker
-:white_check_mark: container customizado
+
+:white_check_mark: comandos docker utilizados</br>
+:white_check_mark: subir aplicação no docker</br>
+:white_check_mark: container customizado</br>
 
 ### 💻 Configurações
 
