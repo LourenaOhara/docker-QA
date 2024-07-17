@@ -1,4 +1,4 @@
-# DOCKER-QA
+# DOCKER-QA [![My Skills](https://skillicons.dev/icons?i=html,docker)](https://skillicons.dev)
 
 <p align="center">
   <img src="docker-qa.png" alt="animated" />
