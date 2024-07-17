@@ -4,11 +4,6 @@
   <img src="docker-qa.png" alt="animated" />
 </p>
 
-
-:white_check_mark: comandos docker utilizados</br>
-:white_check_mark: subir aplicação no docker</br>
-:white_check_mark: container customizado</br>
-
 ### 💻 Configurações
 
 - 🎯 Ubuntu 22.04 [LTS] 
