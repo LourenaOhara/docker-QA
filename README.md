@@ -4,7 +4,11 @@
   <img src="docker-qa.png" alt="animated" />
 </p>
 
-### 💻 Configurações
+***Material disponibilizado pelo QAx - Fernando Papito no curso*** 
+
+[Docker com Linux para QAs](https://www.udemy.com/course/docker-para-qas/learn/lecture/43060846#overview)
+
+## 💻 Configurações
 
 - 🎯 Ubuntu 22.04 [LTS] 
 - 🎯 [Docker Engine](https://docs.docker.com/engine/install/ubuntu/)
