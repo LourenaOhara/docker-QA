@@ -4,9 +4,7 @@
   <img src="docker-qa.png" alt="animated" />
 </p>
 
-***Material disponibilizado pelo QAx - Fernando Papito no curso*** 
-
-[Docker com Linux para QAs](https://www.udemy.com/course/docker-para-qas/learn/lecture/43060846#overview)
+***Material disponibilizado pelo QAx - Fernando Papito no curso*** [Docker com Linux para QAs](https://www.udemy.com/course/docker-para-qas/learn/lecture/43060846#overview)
 
 ## 💻 Configurações
 
